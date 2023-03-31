@@ -4,7 +4,7 @@ databases:
 
 services:
   - type: web
-    name: mysite
+    name: rails
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
