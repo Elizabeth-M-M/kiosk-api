@@ -4,7 +4,7 @@ databases:
 
 services:
   - type: web
-    name: rails
+    name: trail2
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
